@@ -1,0 +1,154 @@
+ ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+	  width: 30%;
+	  float: right;
+	  background-color:#451952;
+    }
+	
+
+
+    ul.navbar li {
+      float: right;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: #A58E74;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+	  font-size: 25px;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #1d1a39;
+	  }
+	  {box-sizing: border-box;}
+
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #451952;
+  font-family: Arial;
+  width: 15%;
+  margin: 30;
+  float:center;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: center;
+  overflow: hidden;
+  color:#451952;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: A58E74;
+  padding: 14px 16px;
+  background-color: 451952;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: 1d1a39;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: A58E74;
+  min-width: 50px;
+  font-size: 25px;
+  z-index: 1;
+  color: blue;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+	  
+	  body{
+	 background-color: #545b55;
+	
+	
+	}
+	h1{
+	color: #E09132;
+	font-size: 50px;
+	text-align: center;
+	margin: 70;
+	text-align: center;
+  }
+h2{
+	color: #E09132;
+	font-size: 25px;
+	text-align: center;
+	}
+	section{
+		background-color:#662549;
+		padding: 15;
+  border-radius: 25px;
+ margin-top:40;
+  padding: 20px;
+  
+	}
+	
+	#a-perfect-story{
+		background-color:#662549;
+		padding: 15;
+  border-radius: 25px;
+ 
+  padding: 20px;
+	}
+	#landingpage1{
+		background-color: d19793;
+	}
+	#landingpage2{
+		background-color: d19793;
+	}
+	
+	#romance11{
+	background-color:#662549;
+		padding: 15;
+  border-radius: 25px;
+  padding: 20px;
+	}
+	
+	#romance{
+	background-color:#662549;
+		padding: 15;
+  border-radius: 25px;
+  padding: 20px;
+	}
